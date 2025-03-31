@@ -12,4 +12,4 @@ plan_costs = np.random.standard_t(df, size=num_plans) * std_dev_cost + mean_cost
 # Calculate the total cost
 total_cost = np.sum(plan_costs)
 
-print("Total cost for the year = ",11 * total_cost / 1000000000, "billion")
+print("Total cost for the year = ", total_cost / 1000000000, "billion")
